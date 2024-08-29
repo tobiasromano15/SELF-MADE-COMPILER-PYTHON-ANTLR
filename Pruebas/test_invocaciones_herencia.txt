@@ -1,0 +1,53 @@
+{
+CLASS otra_herencia {
+
+    VOID a() {
+        PRINT(%a%),
+        RETURN,
+        },
+
+    VOID x(INT valor) {
+        PRINT(%x%),
+        RETURN,
+        },
+    },
+
+CLASS clase_herencia {
+    VOID b() {
+        PRINT(%b%),
+        RETURN,
+        },
+
+    VOID y(INT valor) {
+        PRINT(%y%),
+        RETURN,
+        },
+
+    otra_herencia,
+    },
+
+CLASS test_clase {
+    VOID c() {
+        PRINT(%c%),
+        RETURN,
+        },
+
+    VOID z(INT valor) {
+        PRINT(%z%),
+        RETURN,
+        },
+
+    clase_herencia,
+    },
+
+test_clase a,
+
+a.c(),
+a.z(1_i),
+
+a.clase_herencia.b(),
+a.clase_herencia.y(2_i),
+
+a.clase_herencia.otra_herencia.a(),
+a.clase_herencia.otra_herencia.x(3_i),
+}

@@ -1,0 +1,15 @@
+{
+INT a;b,
+a = 3_i,
+b = 10_i,
+IF (a<b) {
+    PRINT(%then%),
+} END_IF,
+
+IF (a>b) {
+    PRINT(%then%),
+} ELSE {
+    PRINT(%else%),
+} END_IF,
+
+}

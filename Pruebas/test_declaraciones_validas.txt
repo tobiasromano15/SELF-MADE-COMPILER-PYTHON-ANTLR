@@ -1,0 +1,35 @@
+{
+INT x,
+ULONG y,
+FLOAT z,
+
+CLASS clase_herencia {
+    INT property_herencia_1,
+},
+
+CLASS test_clase {
+    INT property1,
+    FLOAT property2,
+    ULONG property3,
+
+    VOID funcion_clase(INT parametro) {
+        property1 = parametro,
+        RETURN,
+    },
+
+    VOID funcion_clase_dos() {
+        PRINT(%es es la funcion dos%),
+        RETURN,
+    },
+
+    clase_herencia,
+},
+
+x = 1_i,
+y = 0_ul,
+z = 3.0,
+test_clase c1;c2,
+c1.funcion_clase(2_i),
+x = c1.property1,
+c1.clase_herencia.property_herencia_1 = 0_i,
+}

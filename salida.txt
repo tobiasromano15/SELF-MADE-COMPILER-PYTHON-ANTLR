@@ -1,0 +1,10 @@
+1: FUNCION metodo_foward_main_clase_foward
+2: %metodo de clase_foward%
+3: PRINT
+4: ret
+5: FUNCION metodo_super_main_super
+6: %metodo de super%
+7: PRINT
+8: ret
+9: 1
+10: CALLFUNC

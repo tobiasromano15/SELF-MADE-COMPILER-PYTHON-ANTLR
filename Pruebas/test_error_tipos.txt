@@ -1,0 +1,6 @@
+{
+	INT a,
+	FLOAT b,
+	a = 3_i,
+	b = a,
+}

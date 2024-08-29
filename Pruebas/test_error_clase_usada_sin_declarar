@@ -1,0 +1,11 @@
+{
+CLASS test_clase {
+    clase_foward property,
+
+    VOID metodo() {
+        property.metodo_foward(),
+        RETURN,
+    },
+},
+
+}

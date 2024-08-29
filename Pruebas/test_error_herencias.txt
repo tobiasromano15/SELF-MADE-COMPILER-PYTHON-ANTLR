@@ -1,0 +1,22 @@
+{
+
+CLASS clase_herencia_uno {
+    INT property_herencia_1,
+},
+
+CLASS clase_herencia_dos {
+    INT property_herencia_2,
+    clase_herencia_uno,
+},
+
+CLASS clase_herencia_tres {
+    INT property_herencia_3,
+    clase_herencia_dos,
+},
+
+CLASS clase {
+    INT property,
+    clase_herencia_tres,
+}
+
+}

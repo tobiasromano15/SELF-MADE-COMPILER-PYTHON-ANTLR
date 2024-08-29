@@ -1,0 +1,8 @@
+{
+INT a,
+ULONG b,
+FLOAT c,
+a = 1_i,
+b = 20000_ul,
+c = -243.24,
+}

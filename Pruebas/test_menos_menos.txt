@@ -1,0 +1,8 @@
+{
+INT a;b,
+b = 3_i,
+a = 1_i + b--,
+IF (a == 3_i) {
+    PRINT(%Se hizo b - 1 y a vale 3%),
+} END_IF,
+}

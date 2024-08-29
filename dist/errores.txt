@@ -1,0 +1,2 @@
+Error lexico : Entero no contiene Sufijo, en linea nro 19
+ERROR  SEMANTICO: variable funcion ya existe en el ambito actual En la linea 14

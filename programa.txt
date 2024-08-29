@@ -1,0 +1,28 @@
+{
+CLASS test_clase {
+    clase_foward,
+},
+
+CLASS clase_foward {
+    INT propoerty_foward,
+    VOID metodo_foward() {
+        PRINT(%metodo de clase_foward%),
+        RETURN,
+    },
+},
+
+CLASS super {
+    INT propoerty_super,
+    VOID metodo_super() {
+        PRINT(%metodo de super%),
+        RETURN,
+    },
+},
+
+CLASS sub {
+    super,
+},
+
+test_clase a,
+a.clase_foward.metodo_foward(),
+}

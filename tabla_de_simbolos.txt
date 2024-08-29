@@ -1,0 +1,9 @@
+Simbolo: test_clase:main - Caracteristicas: uso: nombre de clase - referencias: 2 - ambito de clase: :main:test_clase - numero de herencias: 1 - clase herencia: clase_foward:main - propiedades heredadas: ['propoerty_foward'] - 
+Simbolo: clase_foward:main - Caracteristicas: uso: nombre de clase - referencias: 1 - ambito de clase: :main:clase_foward - propiedades: ['propoerty_foward'] - miembros de clase: ['metodo_foward'] - miembros: ['metodo_foward_main_clase_foward'] - 
+Simbolo: propoerty_foward:main:clase_foward - Caracteristicas: tipo: INT - referencias: 1 - uso: variable - 
+Simbolo: metodo_foward:main:clase_foward - Caracteristicas: uso: funcion - referencias: 2 - nroParametros: 0 - 
+Simbolo: super:main - Caracteristicas: uso: nombre de clase - referencias: 1 - ambito de clase: :main:super - propiedades: ['propoerty_super'] - miembros de clase: ['metodo_super'] - miembros: ['metodo_super_main_super'] - 
+Simbolo: propoerty_super:main:super - Caracteristicas: tipo: INT - referencias: 1 - uso: variable - 
+Simbolo: metodo_super:main:super - Caracteristicas: uso: funcion - referencias: 1 - nroParametros: 0 - 
+Simbolo: sub:main - Caracteristicas: uso: nombre de clase - referencias: 1 - ambito de clase: :main:sub - numero de herencias: 1 - clase herencia: super:main - propiedades heredadas: ['propoerty_super'] - 
+Simbolo: a:main - Caracteristicas: tipo: test_clase - referencias: 2 - uso: variable - 

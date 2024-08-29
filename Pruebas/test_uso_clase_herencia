@@ -1,0 +1,30 @@
+{
+CLASS otra_herencia {
+    INT otra_property,
+
+    VOID asd() {
+        PRINT(%asd%),
+        RETURN,
+    },
+},
+
+CLASS clase_herencia {
+    INT property_herencia_1;property_herencia_2;property_herencia_3,
+    otra_herencia,
+},
+
+CLASS test_clase {
+    INT property1,
+    FLOAT property2,
+
+    clase_herencia,
+},
+
+test_clase a,
+
+a.property1 = 1_i,
+
+a.clase_herencia.property_herencia_1 = 2_i,
+
+a.clase_herencia.otra_herencia.otra_property = 3_i,
+}

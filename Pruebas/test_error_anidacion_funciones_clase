@@ -1,0 +1,27 @@
+{
+CLASS test_clase {
+
+    VOID funcion() {
+
+        PRINT(% funcion de clase valida %),
+
+        VOID segunda_funcion() {
+            PRINT(% esto es invalido %),
+            RETURN,
+            },
+
+        RETURN,
+        },
+    },
+
+VOID funcion() {
+
+    VOID anidacion_valida(){
+        PRINT(% esto es valido %),
+        RETURN,
+        },
+
+    anidacion_valida(),
+    RETURN,
+},
+}

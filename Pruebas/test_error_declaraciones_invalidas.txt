@@ -1,0 +1,21 @@
+{
+	INT j,
+	INT j,
+	VOID funcion(){
+		PRINT(%HOLA%),
+		RETURN,
+	},
+	VOID funcion(){
+		PRINT(%HOLA2%),
+		RETURN,
+	},
+	CLASS avion{
+		INT alas,
+	},
+	CLASS avion{
+		INT rueditas,
+	},
+	k = 1_i,
+	func(),
+	ave aguilucho,
+}
